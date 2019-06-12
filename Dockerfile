@@ -3,5 +3,4 @@ FROM fabric8/java-jboss-openjdk8-jdk
 
 USER root
 
-# Prepare by downloading dependencies
-COPY deepeix-center-provider/target/demo.jar /home/
+COPY deepe-ss-provider/target/demo.jar /home/
